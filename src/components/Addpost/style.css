@@ -1,0 +1,33 @@
+.addPost {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.heading {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 2rem;
+}
+.title {
+  font-size: x-large;
+  font-weight: 400;
+  margin: 1rem 0rem;
+}
+.intputfield {
+  width: 30rem;
+  height: 2rem;
+  margin: 0 2rem 0.5rem 1rem;
+}
+.intputfieldpost {
+  width: 30rem;
+  height: 7rem;
+  margin: 0 2rem 0.5rem 1rem;
+}
+.submitBotton {
+  height: 2.5rem;
+  width: 10rem;
+  margin: 1rem 1rem;
+}

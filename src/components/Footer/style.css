@@ -1,0 +1,14 @@
+.footer {
+  height: 3rem;
+  background-color: cornflowerblue;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footerText {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.3rem;
+  font: 600;
+}

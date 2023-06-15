@@ -1,0 +1,16 @@
+.header{
+    height: 3rem;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0 auto ;
+    justify-content: center;
+
+}
+.headerText{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: aliceblue;
+    padding-top: 5px;
+}
