@@ -9,3 +9,17 @@
   gap: 5rem;
   list-style-type: none;
 }
+.navbuttons{
+  padding: 1rem 2rem;
+  background-color: rgb(80, 80, 209);
+  border-radius: 5px;
+}
+.navLinks{
+  color: aliceblue;
+  padding: 3rem;
+}
+.inputSearch{
+  width: 10rem;
+  height: 1.5rem;
+  margin-top: 0.5rem ;
+}

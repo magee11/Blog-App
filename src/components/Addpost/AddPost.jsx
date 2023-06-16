@@ -1,7 +1,4 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import { Navbar } from "../Navbar/Navbar";
 import "./style.css";
 
 const AddPost = ({
@@ -40,7 +37,7 @@ const AddPost = ({
             }}
           />
           <br />
-          <button className="submitBotton" type="submit">
+          <button className="submitButton" type="submit">
             submit
           </button>
         </form>

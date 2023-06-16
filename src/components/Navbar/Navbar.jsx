@@ -9,6 +9,7 @@ export const Navbar = ({ search, setSearch }) => {
           <label>Search </label>
           <input
             type="text"
+            className="inputSearch"
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
@@ -17,16 +18,18 @@ export const Navbar = ({ search, setSearch }) => {
         </div>
         <NavLink
           to="/"
+          className="navbuttons"
           style={({ isActive }) => ({
-            color: isActive ? "gray" : "black",
+            color: isActive ? "yellow" : "white",
           })}
         >
           Home
         </NavLink>
         <NavLink
+          className="navbuttons"
           to="/addpost"
           style={({ isActive }) => ({
-            color: isActive ? "gray" : "black",
+            color: isActive ? "yellow" : "white",
           })}
         >
           AddPost
