@@ -1,11 +1,11 @@
 import React from "react";
 import Post from "../Posts/Post";
-
+import './style.css';
 const Feed = ({posts}) => {
   return (
-    <main>
+    <main className="feedItems">
         {posts.map(post =>(
-            <Post key={post.id} post={post}/>
+            <Post className="postItems" key={post.id} post={post}/>
         ))}
     </main>
   );

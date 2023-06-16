@@ -1,6 +1,11 @@
-.link{
-    color: rgb(0, 0, 0);
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
-.postPage{
-    margin: 0rem 5rem;
+.postPage {
+  margin: 0rem 5rem;
+}
+
+.postItem {
+margin: 3rem;
 }

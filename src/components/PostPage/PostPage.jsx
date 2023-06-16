@@ -9,12 +9,16 @@ const PostPage = ({ posts, handleDelete }) => {
   return (
     <main>
       {post && (
-        <>
-          <h2>{post.title}</h2>
-          <p>{post.datetime}</p>
-          <p>{post.body}</p>
-          <button onClick={() => handleDelete(post.id)}>delete</button>
-        </>
+        <div className="postItem">
+          <div>
+            <h2>{post.title}</h2>
+            <p>{post.datetime}</p>
+            <p>{post.body}</p>
+          </div>
+          <div>
+            <button onClick={() => handleDelete(post.id)}>delete</button>
+          </div>
+        </div>
       )}
       {!post && (
         <>
